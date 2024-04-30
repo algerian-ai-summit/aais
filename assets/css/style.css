@@ -1,0 +1,79 @@
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .carousel-caption.description {
+    position: relative;
+    /* Change position to relative for responsiveness */
+    margin-bottom: 0;
+    /* Reset margin if necessary */
+    text-align: center;
+    /* Center-align content */
+  }
+
+  .carousel-caption.description h1 {
+    font-size: 24px !important;
+    /* Adjust font size for smaller screens */
+  }
+
+  .carousel-caption.description h2 {
+    font-size: 20px !important;
+    /* Adjust font size for smaller screens */
+  }
+
+  .carousel-caption.description p {
+    font-size: 10px !important;
+    /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .carousel-caption.description {
+    margin-bottom: -05%;
+    position: absolute;
+    left: 47%;
+    top: auto;
+    width: 75%;
+  }
+
+
+  .carousel-caption.description p {
+    font-size: 10px !important;
+    /* Adjust font size for smaller screens */
+  }
+
+  /* .divanimation {
+    margin-bottom: 50%;
+    position: absolute;
+    visibility: hidden;
+    left: 10%;
+    top: 30%;
+  } */
+
+  .divanimation h1 {
+    font-size: 24px ;
+    /* Adjust font size for smaller screens */
+  }
+
+  /* .divanimation h2 {
+    font-size: 20px !important;
+    Adjust font size for smaller screens
+  } */
+
+  .animethre {
+    margin-bottom: 50%;
+    position: absolute;
+    visibility: hidden;
+    left: 10%;
+    top: 30%;
+  }
+
+  .animethre h1 {
+    font-size: 24px !important;
+    /* Adjust font size for smaller screens */
+  }
+
+  .animethre h2 {
+    font-size: 20px !important;
+    /* Adjust font size for smaller screens */
+  }
+}
