@@ -33,7 +33,7 @@
   <!-- Header Area wrapper Starts -->
   <header id="header-wrap">
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
+    <nav id = "navbarid" class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
 
@@ -43,7 +43,7 @@
             <img id="logo1" src="assets/img/logo/w_main_v1.png" alt="" style="height: 32%;width:32%; display: block;">
             <img id="logo2" src="assets/img/logo/main_v1.png" alt="" style="height: 16%;width:16%; display: none;">
           </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          <button id="togglerid" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lni-menu"></i>
           </button>
@@ -547,7 +547,8 @@
   <section id="schedules" class="schedule section-padding">
     <hr>
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center">
+
         <div class="col-12">
           <div class="section-title-header text-center">
             <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Event Schedule</h2>
@@ -558,6 +559,21 @@
             </p>
           </div>
         </div>
+
+        <div class="col-4 text-center">
+          <h3> Day 1: </h3>
+        </div>
+        <div class="col-8">
+          <h6> Strategy, Infrastructure, and Priority Sectors </h6>
+        </div>
+
+        <div class="col-4 text-center">
+          <h3> Day 2: </h3>
+        </div>
+        <div class="col-8">
+          <h6> Research & Innovation, Skills, Regulation </h6>
+        </div>
+
       </div>
     </div>
     
@@ -621,7 +637,7 @@
                                 <h4>Prof. M.Debbah</h4>
                                 <span> 10:45 - 11:15 </span>
                                 <h6>AI Board & Algerian AI Strategy</h6>
-                                <!-- <h4 style="color: white;">Empty</h4> -->
+                                <h4 style="color: white;">Empty</h4>
                               </div>
                             </div>
                           </li>
@@ -634,8 +650,9 @@
                                   <a href="#">Panel Discussion 1</a>
                                 </div>
                                 <h4> Dr. M.Bouache </h4>
+                                <h4>  Dr M.Ouzzani </h4>
                                 <span> 11:15 - 12:15 </span>
-                                <h6> Infrastructure and Data  </h6>
+                                <h6> Infrastructure & Data  </h6>
                                 
                               </div>
                             </div>
@@ -650,7 +667,7 @@
                                 </div>
                                 <h4>Lunch Break</h4>
                                 <span> 12:30 </span>
-                                <h6 style="color: white;"> Lun<br>ch </h6>
+                                <h6 style="color: white;">Lun<br>ch</h6>
                               </div>
                             </div>
                           </li>
@@ -664,7 +681,7 @@
                                 </div>
                                 <h4>Prof. B.Benattalah</h4>
                                 <span> 14:00 - 14:45 </span>
-                                <h6>Conversational AI: Opportunities, Challenges, and Directions</h6>
+                                <h6>AI Revolution: Opportunities,<br>Challenges, and Directions</h6>
                               </div>
                             </div>
                           </li>
@@ -676,10 +693,10 @@
                                 <div class="accent-button button">
                                   <a href="#">Panel Discussion 2</a>
                                 </div>
-                                <h4>Dr. D.Aouada, </h4>
-                                <h4>Prof. A.Bachir</h4>
+                                <h4> Pr A.Bachir</h4>
+                                <h4>Prof. M.Koudil</h4>
                                 <span> 14:45 - 15:45 </span>
-                                <h6> Priority sectors & Ecosystem  </h6>
+                                <h6> Priority sectors </h6>
                               </div>
                             </div>
                           </li>
@@ -706,10 +723,10 @@
                                 <div class="accent-button button">
                                   <a href="#">Panel Discussion 3</a>
                                 </div>
-                                <h4> Dr. M.Khelif</h4>
+                                <h4> Dr D.Aouada</h4>
+                                <h4> Dr. M.Benamara </h4>
                                 <span> 16:00 - 17:00 </span>
-                                <h6> AI strategies in Africa  </h6>
-
+                                <h6> Ecosystem & Investment </h6>
                               </div>
                             </div>
                           </li>
@@ -724,6 +741,7 @@
                                 <h4>Networking Dinner</h4>
                                 <span> 18:30 </span>
                                 <h6 style="color: white;"> Dinner </h6>
+                                <h4 style="color: white;"> Dinner </h4>
                               </div>
                             </div>
                           </li>
@@ -790,7 +808,7 @@
                                 <h4>Prof. B.Benattala</h4>
                                 <h4>Prof. T.Kechadi</h4>
                                 <span> 10:45 - 12:00 </span>
-                                <h6> Research and Innovation </h6>
+                                <h6> Research & Innovation </h6>
                               </div>
                             </div>
                           </li>
@@ -830,8 +848,8 @@
                                 <div class="accent-button button">
                                   <a href="#">Panel Discussion 5</a>
                                 </div>
-                                <h4>Dr. A.Abdaoui </h4>
                                 <h4>Dr. M.Senouci</h4>
+                                <h4>Dr. A.Abdaoui </h4>
                                 <span> 14:15 - 15:15 </span>
                                 <h6> AI Skills </h6>
 
@@ -856,14 +874,16 @@
 
                           <li>
                             <div class="item">
-                              <img src="assets/img/icons/Panel-2.png" style="width:40%;" alt="">
+                              <img src="assets/img/icons/Panel-3.png" style="width:40%;" alt="">
                               <div class="text-content">
                                 <div class="accent-button button">
                                   <a href="#">Panel Discussion 6</a>
                                 </div>
+                                <h4>Dr. M.Khelif</h4>
                                 <h4>Dr. F.Bousetouane</h4>
                                 <span> 15:30 - 16:30 </span>
-                                <h6> Regulation, Policies & AI Investment </h6>
+                                <h6> ReRegulation & Policies </h6>
+                                <h4 style="color: white;">Empty</h4>
 
                               </div>
                             </div>
@@ -1379,15 +1399,16 @@
   <!-- Sponsors Section Start -->
   <section id="sponsors" class="section-padding">
     <!-- <hr> -->
-    <div class="overlay"></div>
+    <!-- <div class="overlay"></div> -->
     <div class="container">
       <div class="row">
         <div class="col-12">
           <div class="section-title-header text-center">
-            <h2 class="section-title wow fadeInUp" data-wow-delay="0.2s">Sponsors</h2>
-            <p class="wow fadeInDown" data-wow-delay="0.2s">
+            <h2 class="section-title wow fadeInUp " data-wow-delay="0.2s">Sponsors</h2>
+            <h6 style="text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;">
               Sponsored by Algerian ministries, universities, and leading technology companies,
-              fostering a collaborative ecosystem for AI advancement.</p>
+              fostering a collaborative ecosystem for AI advancement.
+            </h6>
           </div>
         </div>
       </div>
